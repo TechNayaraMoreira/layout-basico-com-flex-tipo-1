@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: aqua;
+    flex-basis: 80px;
+}
+
+.corpo {
+    background-color: azure;
+    flex: 1;
+}
+
+.rodape {
+    background-color: aquamarine;
+    flex-basis: 40px;
+}
